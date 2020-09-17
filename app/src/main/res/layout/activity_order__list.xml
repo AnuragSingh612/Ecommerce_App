@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EndUser.Order_ListActivity">
+
+    <TextView
+        android:id="@+id/Description"
+        android:layout_width="match_parent"
+        android:layout_height="23dp"
+        android:text="Write down your list and place your order"
+        android:textStyle="italic"
+        android:textSize="17sp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@android:color/white"
+        android:paddingBottom="2dp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal" />
+
+    <EditText
+        android:id="@+id/item1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@+id/Description"
+        android:inputType="textPersonName"
+        android:hint="Item / Qty"
+        />
+
+    <EditText
+        android:id="@+id/item3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@+id/item1"
+        android:inputType="textPersonName"
+        android:hint="@string/item_qty"
+        />
+    <EditText
+        android:id="@+id/item4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@+id/item3"
+        android:inputType="textPersonName"
+        android:hint="Item / Qty"
+
+        />
+    <EditText
+        android:id="@+id/item5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@+id/item4"
+        android:inputType="textPersonName"
+        android:hint="Item / Qty"
+
+        />
+    <EditText
+        android:id="@+id/item6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@+id/item5"
+        android:inputType="textPersonName"
+        android:hint="Item / Qty"
+        />
+    <EditText
+        android:id="@+id/item7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@+id/item6"
+        android:inputType="textPersonName"
+        android:hint="Item / Qty"
+        />
+    <EditText
+        android:id="@+id/item8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@+id/item7"
+        android:inputType="textPersonName"
+        android:hint="Item / Qty"
+        />
+    <EditText
+        android:id="@+id/item9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@+id/item8"
+        android:inputType="textPersonName"
+        android:hint="Item / Qty"
+        />
+    <EditText
+        android:id="@+id/item10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@+id/item9"
+        android:inputType="textPersonName"
+        android:hint="Item / Qty"
+        />
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@+id/item10"
+        android:inputType="textPersonName"
+        android:hint="Address- Street/Lane"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal" />
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@+id/address"
+        android:inputType="textPersonName"
+        android:hint="Phone"
+        android:textAlignment="center"
+
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/place_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/buttons"
+        android:gravity="center_horizontal"
+        android:text="Place order"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+
+</RelativeLayout>

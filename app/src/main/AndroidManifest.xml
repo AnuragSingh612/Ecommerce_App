@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.delivery">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Admin.Admin_deliverable_product"></activity>
+        <activity android:name=".Admin.Admin_deliverable" />
+        <activity android:name=".Admin.AdminListViewActivity" />
+        <activity android:name=".EndUser.Order_ListActivity" />
+        <activity android:name=".Admin.checkNewProducts" />
+        <activity android:name=".Admin.AdminHomeActivity" />
+        <activity
+            android:name=".Seller.SellerHomeActivity"
+            android:label="@string/title_activity_seller_home" />
+        <activity android:name=".Seller.Seller_login_Activity" />
+        <activity android:name=".Seller.SellerRegistrationActivity" />
+        <activity android:name=".EndUser.ResetPasswordActivity" />
+        <activity android:name=".Admin.AdminMaintainProductsActivity" />
+        <activity android:name=".EndUser.SearchProductActivity" />
+        <activity android:name=".Admin.AdminUserProductActivity" />
+        <activity android:name=".Admin.AdminNewOrdersActivity" />
+        <activity android:name=".EndUser.ConfirmFinalOrderActivity" />
+        <activity android:name=".EndUser.CartActivity" />
+        <activity android:name=".EndUser.ProductDetailsActivity" />
+        <activity
+            android:name=".EndUser.HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".EndUser.SettinsActivity" />
+        <activity android:name=".Seller.SellerCategoryActivity" />
+        <activity android:name=".Seller.SellerAddNewProductActivity" />
+        <activity android:name=".EndUser.RegisterActivity" />
+        <activity android:name=".EndUser.LoginActivity" />
+        <activity android:name=".EndUser.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
